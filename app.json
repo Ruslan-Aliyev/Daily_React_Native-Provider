@@ -14,13 +14,17 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ruslanaliyev123.Daily-React-Native"
+      "bundleIdentifier": "com.ruslanaliyev123.Daily-React-Native",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "We need access to your microphone for game calls"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ruslanaliyev123.DailyReactNative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
