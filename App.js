@@ -1,15 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import Daily from '@daily-co/react-native-daily-js';
+import { useMyDaily } from './MyDailyProvider';
 
 export default function App() {
-  let call = null;
-
-  if (!call)
-  {
-    call = Daily.createCallObject();
-    call.setLocalVideo(false);
-  }
+  const {call}= useMyDaily();
 
   return (
     <View style={styles.container}>
@@ -27,6 +21,19 @@ export default function App() {
           call.destroy();//Need await?
         }}
         title="Hangup"
+      />
+
+      <Button
+        onPress={() => {
+          call.setLocalAudio(true);
+        }}
+        title="Mute"
+      />
+      <Button
+        onPress={() => {
+          call.setLocalAudio(true);
+        }}
+        title="Unmute"
       />
     </View>
   );
