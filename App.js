@@ -11,7 +11,10 @@ export default function App() {
       <StatusBar style="auto" />
       <Button
         onPress={() => {
-          call.join({ url: 'https://ruslanaliyev.daily.co/ruslanaliyev_room1', startVideoOff: true });
+          call.join({ 
+            url: 'https://ruslanaliyev.daily.co/ruslanaliyev_room1', 
+            startVideoOff: true, 
+          });
         }}
         title="Call"
       />
@@ -25,7 +28,7 @@ export default function App() {
 
       <Button
         onPress={() => {
-          call.setLocalAudio(true);
+          call.setLocalAudio(false);
         }}
         title="Mute"
       />
