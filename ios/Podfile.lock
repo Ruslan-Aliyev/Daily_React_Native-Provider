@@ -1,19 +1,19 @@
 PODS:
   - boost (1.84.0)
   - DoubleConversion (1.1.6)
-  - EXConstants (17.0.5):
+  - EXConstants (17.0.8):
     - ExpoModulesCore
-  - Expo (52.0.31):
+  - Expo (52.0.39):
     - ExpoModulesCore
-  - ExpoAsset (11.0.3):
+  - ExpoAsset (11.0.4):
     - ExpoModulesCore
-  - ExpoFileSystem (18.0.10):
+  - ExpoFileSystem (18.0.11):
     - ExpoModulesCore
-  - ExpoFont (13.0.3):
+  - ExpoFont (13.0.4):
     - ExpoModulesCore
-  - ExpoKeepAwake (14.0.2):
+  - ExpoKeepAwake (14.0.3):
     - ExpoModulesCore
-  - ExpoModulesCore (2.2.1):
+  - ExpoModulesCore (2.2.3):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -42,7 +42,7 @@ PODS:
   - hermes-engine (0.76.7):
     - hermes-engine/Pre-built (= 0.76.7)
   - hermes-engine/Pre-built (0.76.7)
-  - JitsiWebRTC (111.0.2)
+  - JitsiWebRTC (118.0.0)
   - RCT-Folly (2024.01.01.00):
     - boost
     - DoubleConversion
@@ -1280,13 +1280,13 @@ PODS:
     - Yoga
   - react-native-background-timer (2.4.1):
     - React-Core
-  - react-native-daily-js (0.72.0):
+  - react-native-daily-js (0.70.0):
     - React-Core
     - ReactNativeDailyJSScreenShareExtension (= 0.0.1)
   - react-native-get-random-values (1.11.0):
     - React-Core
-  - react-native-webrtc (111.0.0-daily.2):
-    - JitsiWebRTC (~> 111.0.0)
+  - react-native-webrtc (118.0.3-daily.2):
+    - JitsiWebRTC (~> 118.0.0)
     - React-Core
   - React-nativeconfig (0.76.7)
   - React-NativeModulesApple (0.76.7):
@@ -1821,18 +1821,18 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: 1dca942403ed9342f98334bf4c3621f011aa7946
   DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
-  EXConstants: e25c3f3ef5d1cf7a6ef911ebf7a3ab94d8d06d82
-  Expo: 00d0b7e489e495472fa3d5ac20e267d174fe0c72
-  ExpoAsset: 715ce37a36951fee71c32773b3be50f2285e2fbe
-  ExpoFileSystem: 5df53001901f76b493bd5deb75ac506871cc9b2e
-  ExpoFont: 38656978c2a4022fb7e0c43e4968d66340f5e2f3
-  ExpoKeepAwake: 62ff49bbc3bff90d8ee28329190f9ba371bf88e7
-  ExpoModulesCore: ed4e8e620f35bf23cdd1ccb5c2e6d00cf52483fd
+  EXConstants: fcfc75800824ac2d5c592b5bc74130bad17b146b
+  Expo: dc113fa18a3212dfdab60fc543b052ef4299f8a9
+  ExpoAsset: 4033893dfb333b444bf45e951351254137b658d5
+  ExpoFileSystem: 2d804c73034c0d65eb2a640e0a77627033b69edc
+  ExpoFont: f354e926f8feae5e831ec8087f36652b44a0b188
+  ExpoKeepAwake: b0171a73665bfcefcfcc311742a72a956e6aa680
+  ExpoModulesCore: 98297c2cc7977c43740a2e52d850d94ac8dbf176
   FBLazyVector: ca8044c9df513671c85167838b4188791b6f37e1
   fmt: 10c6e61f4be25dc963c36bd73fc7b1705fe975be
   glog: 08b301085f15bcbb6ff8632a8ebaf239aae04e6a
   hermes-engine: eb4a80f6bf578536c58a44198ec93a30f6e69218
-  JitsiWebRTC: 80f62908fcf2a1160e0d14b584323fb6e6be630b
+  JitsiWebRTC: 3a41671ef65a51d7204323814b055a2690b921c7
   RCT-Folly: 84578c8756030547307e4572ab1947de1685c599
   RCTDeprecation: 7691283dd69fed46f6653d376de6fa83aaad774c
   RCTRequired: eac044a04629288f272ee6706e31f81f3a2b4bfe
@@ -1863,9 +1863,9 @@ SPEC CHECKSUMS:
   React-Mapbuffer: a381120aea722d2244d4e4b663a10d4c3b2d4e51
   React-microtasksnativemodule: d9b946675010659cddd1c7611c074216579c8ad3
   react-native-background-timer: 4638ae3bee00320753647900b21260b10587b6f7
-  react-native-daily-js: 273f543a868b00dc7cdfcd3bb806189851771f31
+  react-native-daily-js: ade24a89f9e5cf9aa911e4cdca29af1f5f6ed121
   react-native-get-random-values: d16467cf726c618e9c7a8c3c39c31faa2244bbba
-  react-native-webrtc: 9e9db6cd6f2e467844a3fb187101229218e283c3
+  react-native-webrtc: ca5670b7097dab11917acffa8f1fee526d60a29f
   React-nativeconfig: 67fa7a63ea288cb5b1d0dd2deaf240405fec164f
   React-NativeModulesApple: 34b7a4d7441a4ee78d18109ff107c1ccf7c074a9
   React-perflogger: d1149037ac466ad2141d4ae541ca16cb73b2343b

@@ -44,8 +44,16 @@
       <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Allow $(PRODUCT_NAME) to access your camera</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>We need access to your microphone for game calls</string>
+    <string>We need access to your microphone for calls</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This app shall recognize your speech during calls</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>voip</string>
+    </array>
     <key>UILaunchStoryboardName</key>
     <string>SplashScreen</string>
     <key>UIRequiredDeviceCapabilities</key>

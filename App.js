@@ -19,9 +19,9 @@ export default function App() {
         title="Call"
       />
       <Button
-        onPress={() => {
-          call.leave();//Need await?
-          call.destroy();//Need await?
+        onPress={async () => {
+          await call.leave();
+          call.destroy();
         }}
         title="Hangup"
       />

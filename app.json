@@ -16,7 +16,11 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.ruslanaliyev123.Daily-React-Native",
       "infoPlist": {
-        "NSMicrophoneUsageDescription": "We need access to your microphone for game calls"
+        "NSMicrophoneUsageDescription": "We need access to your microphone for calls",
+        "NSSpeechRecognitionUsageDescription": "This app shall recognize your speech during calls",
+        "UIBackgroundModes": [
+          "voip"
+        ]
       }
     },
     "android": {
@@ -28,6 +32,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "@config-plugins/react-native-webrtc",
+      "@daily-co/config-plugin-rn-daily-js"
+    ],
   }
 }
